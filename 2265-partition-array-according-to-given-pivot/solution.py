@@ -4,10 +4,10 @@ class Solution:
         right=[]
         p=[]
         for num in nums:
-            if num<pivot:
-                left.append(num)
-            elif num==pivot:
+            if num==pivot:
                 p.append(num)
+            elif num<pivot:
+                left.append(num)
             else:
                 right.append(num)
         return left+p+right
