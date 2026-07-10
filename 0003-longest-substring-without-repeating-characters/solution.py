@@ -12,6 +12,3 @@ class Solution:
             longest=max(w,longest)
             s1.add(s[r])
         return longest
-
-
-         
